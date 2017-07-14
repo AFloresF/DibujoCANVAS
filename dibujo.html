@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dibujo </title>
+    <style>
+      body{
+        font-family: sans-serif;
+        background-color: #dae8dd;
+
+      }
+
+
+      .titulo{
+      padding-top: 30px
+      border: 2px dashed black;
+      color: #003f0c;
+      }
+
+    </style>
+  </head>
+
+
+  <body>
+  <div class ="el_contenido">
+    <h1 class= "titulo" align= "center" >DIBUJO EN CANVAS</h1>
+
+  <p align="center">
+    <canvas width="500" height="500" id="dibujito"></canvas>
+  </p>
+  <p align = "center">
+    ¿Cuántas lineas quieres?
+    <input type="number" id="texto_lineas"/>
+    <input type="button" value="Ejectuar" id="botoncito"/>
+  </p>
+    <script src="dibujo.js"></script>
+
+  </div>
+  </body>
+</html>
