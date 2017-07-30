@@ -73,3 +73,7 @@ function dibujito(color, x_inicial, y_inicial, x_final, y_final)
   lienzo.stroke();
   lienzo.closePath();
 }
+
+function borrar(){
+  lienzo.clearRect(1,1, ancho-2, alto-2);
+}
