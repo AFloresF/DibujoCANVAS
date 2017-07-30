@@ -29,7 +29,6 @@ var r_fin = ancho;
 var s_fin = alto;
 
 
-
 botoncito.addEventListener("click", dibujoPorClick);
 function dibujoPorClick()
 {
