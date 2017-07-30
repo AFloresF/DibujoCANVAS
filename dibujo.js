@@ -61,12 +61,15 @@ function dibujoPorClick()
   }
 }
 
-
+function dibujarMarco()
+{
 dibujito('#094c18',1, 0, 1, alto);
 dibujito('#094c18',(ancho-1), 0, (ancho-1), alto);
 dibujito('#094c18',0, 1, ancho, 1);
 dibujito('#094c18',0, (alto-1), ancho,(alto-1));
+}
 
+dibujarMarco();
 
 function dibujito(color, x_inicial, y_inicial, x_final, y_final)
 {
